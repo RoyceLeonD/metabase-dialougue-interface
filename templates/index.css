@@ -1,0 +1,33 @@
+.Applications_input {
+    position: absolute;
+    left: 0px;
+    float: left;
+    width: 30%;
+    height: 95%;
+    margin:20px auto;
+    background-color: black;
+}
+.Applications_output {
+    position: absolute;
+    right: 0px;
+    float: right;
+    width: 65%;
+    height: 95%;
+    margin: 20px auto;
+}
+#Login {
+    position: relative;
+    align-content: center;
+    z-index: 5;
+    background-color: white;
+    width: 30%;
+    height: 95%;
+    margin: 20px auto;
+}
+#View_board {
+    position: relative;
+    z-index: 20;
+    align-content: center;
+    width: 200px;
+    height: 47.5%;
+}

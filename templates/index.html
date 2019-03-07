@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tableau Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="Applications_input" id="Login">
+        <form name="Login" method="POST">
+            Login to the metabase NLP hook <br>
+            username: <input type="text" name="username" value=""><br>
+            password: <input type="text" name="password" value=""><br>
+            <input type="submit" value="Login" id="button.login">
+        </form>
+    </div>
+    <div class="Applications_input" id="Dashboard_Handler">
+        <div class="Dashboard" id="Dialougue_asistant"></div>
+        <div class="Dashboard" id="Interpritor"></div>
+    </div>
+    <div class="Applications_output" id="view_window">
+        <div id="View_board"></div>
+        <div id="Modifier"></div>
+    </div>
+</body>
+</html>
